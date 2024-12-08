@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Screen Recorder</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="status">
+            <div class="status-indicator"></div>
+            <span class="status-text">就绪</span>
+        </div>
+        <div class="timer">00:00:00</div>
+        <div class="controls">
+            <button id="toggleRecording" class="btn primary">开始录制</button>
+            <button id="stopRecording" class="btn secondary" disabled>停止</button>
+        </div>
+        <div class="shortcuts">
+            <p>快捷键：</p>
+            <p>F1：开始/暂停录制</p>
+            <p>F2：停止录制</p>
+        </div>
+    </div>
+    <script src="scripts/renderer.js"></script>
+</body>
+</html> 
